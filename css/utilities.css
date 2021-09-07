@@ -14,3 +14,16 @@
   margin-right: calc(1rem * var(--space-x-reverse));
   margin-left: calc(1rem * calc(1 - var(--space-x-reverse)));
 }
+
+.btn {
+  display: inline-flex;
+  font-weight: 600;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+}
+
+.btn-primary {
+  color: #fff;
+  background: #EF4444;
+}
