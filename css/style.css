@@ -80,3 +80,10 @@
 /* MD */
 @media (min-width: 768px) {
 }
+/* copyright bar  */
+#copyright{
+    margin-top: 80%;
+    padding-left: 45%;
+    line-height: 25px;
+    background-color: #2c3e50;
+}
