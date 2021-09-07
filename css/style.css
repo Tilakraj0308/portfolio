@@ -80,10 +80,28 @@
 /* MD */
 @media (min-width: 768px) {
 }
+/* 2nd last bar */
+.follow-bar{
+  margin-top: 75%;
+  height: 230px;
+  background-color: #34495e;
+  color: #bdc3c7;
+}
+#hometable{
+  width: 100%;
+  text-align: center;
+  border-spacing: 10px;
+  margin-top: -12px;
+  font-size: 20px;
+}
+.head{
+  font-size: 30px;
+  color: white;
+}
 /* copyright bar  */
 #copyright{
-    margin-top: 80%;
     padding-left: 45%;
     line-height: 25px;
     background-color: #2c3e50;
+    margin-bottom: 3px;
 }
