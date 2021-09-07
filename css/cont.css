@@ -1,4 +1,4 @@
-
+/* background */
 #parent{
     background-image: url("https://images.unsplash.com/photo-1511184150666-9bb7d41a88f4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
     background-repeat: no-repeat;
@@ -7,6 +7,7 @@
     height: 100vh;
     margin: -8px -8px -8px -8px;
 }
+/* navigation bar */
 .navbar{
     padding-top: 22px;
 }
@@ -19,6 +20,7 @@
 .navbar>span>a{
     text-decoration: none;
 }
+/* above form message */
 .second{
   background-color: #34495e;
   opacity: 50%;
@@ -31,4 +33,13 @@
   /* margin-left: 26vw; */
   padding: 50px;
   text-align: center;
+}
+/* Form  */
+.form->fieldset{
+    width: fit-content;
+    text-align: center;
+    margin-left: 30vw;
+    width: 40vw;
+    height: 60vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
