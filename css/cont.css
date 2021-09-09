@@ -20,6 +20,9 @@
 .navbar>span>a{
     text-decoration: none;
 }
+a:visited{
+    color: black;
+  }
 /* above form message */
 .second{
   background-color: #34495e;

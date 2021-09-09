@@ -20,6 +20,9 @@
 .navbar>span>a{
     text-decoration: none;
 }
+a:visited{
+    color: black;
+  }
 /* Writing part */
 /* @keyframes text-op{
     0%{opacity: 0%;}
