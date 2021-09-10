@@ -1,0 +1,83 @@
+.testimonials {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 6rem auto;
+  padding: 0 1rem;
+}
+
+.testimonials .header {
+  margin-right: 2rem;
+}
+
+.testimonials .header .type {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--secondary-color, green);
+  margin-bottom: 0.6rem;
+}
+
+.testimonials .header .title {
+  padding: 0;
+  margin: 0;
+  font-size: 1.875rem;
+  color: var(--gray-900, black);
+}
+
+.testimonials .header .caption {
+  color: var(--gray-600, gray);
+  max-width: 24rem;
+  line-height: 1.625;
+  margin-top: 0.6rem;
+}
+.testimonials .user {
+  display: flex;
+  align-items: center;
+}
+
+.testimonials .user img {
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 50%;
+}
+.testimonials .user .user-info {
+  margin-left: 1rem;
+}
+
+.testimonials .user .user-info h4 {
+  margin: 0;
+  color: var(--gray-800, gray);
+}
+
+.testimonials .user .user-info p {
+  margin: 0.3rem 0 0 0;
+  color: var(--gray-600, gray);
+  line-height: 1.65;
+}
+
+.testimonials .testimonial {
+    height: 12rem;
+}
+
+.testimonials .testimonial .text {
+  max-width: 42rem;
+  line-height: 1.625;
+  color: var(--gray-800);
+}
+
+.testimonials .testimonial .quote {
+    color: var(--primary-color, coral);
+}
+
+.testimonials .controls {
+    text-align: right;
+}
+
+/* SM */
+@media only screen and (min-width: 640px) {
+    .testimonials{
+      flex-direction: row;
+    }
+  }
+  

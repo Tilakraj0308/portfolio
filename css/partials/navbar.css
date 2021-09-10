@@ -53,7 +53,7 @@
   background: var(--gray-100, gray);
 }
 
-.iconify {
+.navbar .iconify {
   color: var(--gray-600, gray);
 }
 
