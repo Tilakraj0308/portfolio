@@ -25,13 +25,22 @@
 }
 
 .hero .text-wrapper .btn-cta {
-  margin-top: 0.4rem;
+  margin-top: 0.6rem;
+}
+
+.hero-animation {
+  height: 320px;
+  width: 320px;
 }
 
 /* SM */
 @media only screen and (min-width: 640px) {
   .hero {
     flex-direction: row-reverse;
+  }
+  .hero-animation {
+    height: 420px;
+    width: 420px;
   }
 }
 
@@ -45,6 +54,10 @@
   }
   .hero .text-wrapper .title {
     font-size: 3rem;
+  }
+  .hero-animation {
+    height: 520px;
+    width: 520px;
   }
 }
 

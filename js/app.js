@@ -14,3 +14,7 @@ menu.addEventListener('click', (e) => {
   }
   isOpen = !isOpen;
 });
+
+// https://assets2.lottiefiles.com/packages/lf20_138qcknv.json Manger yellow
+// https://assets7.lottiefiles.com/packages/lf20_ocrcnofw.json Loki
+// https://assets8.lottiefiles.com/packages/lf20_1KjmRZ.json Developer

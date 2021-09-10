@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
 
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <script src="js/vendor/iconify.min.js" defer></script>
     <script src="js/app.js" defer></script>
   </head>
@@ -100,7 +101,14 @@
 
     <section class="hero container">
       <div>
-        <img class="img" src="img/amelia.png" alt="Amelia Wattenberger" />
+        <lottie-player
+          src="https://assets2.lottiefiles.com/packages/lf20_138qcknv.json"
+          background="transparent"
+          speed="1"
+          class="hero-animation"
+          loop
+          autoplay
+        ></lottie-player>
       </div>
       <div class="text-wrapper">
         <h1 class="title">I am Saheb Giri</h1>
@@ -112,15 +120,16 @@
         <a href="#" class="btn btn-primary btn-cta">Download CV</a>
       </div>
     </section>
-    <section class="container">
-      <div>
-        <h1>My Development Backpack</h1>
-        <p>
+
+    <section class="container dev-backpack">
+      <div class="header">
+        <h1 class="title">My Development Backpack</h1>
+        <p class="caption">
           A curated lists of tools and software I work with to build digital
           products.
         </p>
       </div>
-      <div></div>
+      <div class="body"></div>
     </section>
   </body>
 </html>
