@@ -49,12 +49,20 @@
 }
 
 .site-logo a {
-  color: #0f172a;
   text-decoration: none;
 }
 
 .navbar {
   flex-direction: column;
+}
+
+.left-nav {
+  display: flex;
+  align-items: center;
+}
+
+.main-navigation {
+  margin-left: 2rem;
 }
 
 /* SM */

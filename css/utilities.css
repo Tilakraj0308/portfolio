@@ -1,5 +1,5 @@
 .container {
-  max-width: 80rem;
+  max-width: 72rem;
   margin: 0 auto;
 }
 
@@ -25,5 +25,5 @@
 
 .btn-primary {
   color: #fff;
-  background: #EF4444;
+  background: #F97316;
 }
