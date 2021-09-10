@@ -11,6 +11,9 @@
   border-bottom: 1px solid rgba(228, 228, 231);
   padding: 0 1rem;
 }
+a:visited{
+  color: black;
+}
 
 .main-navigation ul,
 .social-icons ul {
@@ -198,3 +201,4 @@
   background-color: #2c3e50;
   margin-bottom: 3px;
 }
+
