@@ -1,0 +1,56 @@
+.dev-backpack {
+  margin-top: 0 2rem;
+  padding: 0 1rem;
+}
+
+.header {
+  text-align: center;
+  margin: 3rem 0;
+}
+.header .type {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--secondary-color, green);
+  margin-bottom: 0.6rem;
+}
+
+.header .title {
+  padding: 0;
+  margin: 0;
+  font-size: 1.875rem;
+}
+
+.header .caption {
+  color: var(--gray-600, gray);
+  max-width: 24rem;
+  line-height: 1.625;
+  margin: 0 auto;
+  margin-top: 0.6rem;
+}
+
+.dev-backpack .body {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(308px, 1fr));
+  grid-gap: 1rem;
+}
+
+.body .col .item {
+  margin-bottom: 2rem;
+}
+
+.body .col p {
+  line-height: 1.625;
+  margin-top: 0.5rem ;
+}
+
+.body .col h4 {
+  margin-bottom: 0;
+}
+
+/* LG */
+@media only screen and (min-width: 1280px) {
+  .dev-backpack .body {
+    grid-gap: 2rem;
+  }
+}

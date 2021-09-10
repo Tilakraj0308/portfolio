@@ -1,6 +1,7 @@
 @import './utilities.css';
 @import './partials/hero.css';
 @import './partials/navbar.css';
+@import './dev-backpack.css';
 
 * {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,

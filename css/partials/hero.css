@@ -20,7 +20,7 @@
 }
 
 .hero .text-wrapper .subtitle {
-  color: #475569;
+  color: var(--gray-600, gray);
   line-height: 1.625;
 }
 
