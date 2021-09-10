@@ -3,11 +3,12 @@
   padding: 0 1rem;
 }
 
-.header {
+.dev-backpack .header {
   text-align: center;
   margin: 3rem 0;
 }
-.header .type {
+
+.dev-backpack .header .type {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 0.9rem;
@@ -15,13 +16,13 @@
   margin-bottom: 0.6rem;
 }
 
-.header .title {
+.dev-backpack .header .title {
   padding: 0;
   margin: 0;
   font-size: 1.875rem;
 }
 
-.header .caption {
+.dev-backpack .header .caption {
   color: var(--gray-600, gray);
   max-width: 24rem;
   line-height: 1.625;
@@ -41,7 +42,7 @@
 
 .body .col p {
   line-height: 1.625;
-  margin-top: 0.5rem ;
+  margin-top: 0.5rem;
 }
 
 .body .col h4 {

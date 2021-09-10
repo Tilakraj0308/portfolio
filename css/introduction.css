@@ -1,0 +1,36 @@
+.introduction {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0 2rem;
+  padding: 0 1rem;
+}
+
+.introduction .header {
+    margin-bottom: 2rem;
+}
+.introduction .header .type {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--primary-color, green);
+  margin-bottom: 0.6rem;
+}
+
+.introduction .header .title {
+  padding: 0;
+  margin: 0;
+  font-size: 1.875rem;
+}
+
+.introduction p {
+  color: var(--gray-700, gray);
+  line-height: 1.625;
+  margin-top: 0.6rem;
+}
+
+/* SM */
+@media only screen and (min-width: 640px) {
+  .introduction {
+    flex-direction: row;
+  }
+}
