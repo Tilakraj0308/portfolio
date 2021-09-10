@@ -7,27 +7,21 @@
     <title>Saheb Giri</title>
 
     <link
-      rel="preload"
       href="/fonts/Inter-roman.var.woff2"
       as="font"
       type="font/woff2"
-      crossorigin=""
+      crossorigin="anonymous"
     />
 
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
 
     <script src="js/vendor/iconify.min.js" defer></script>
     <script src="js/app.js" defer></script>
   </head>
   <body>
     <header class="navbar-wrapper">
-      <div class="container flex-center navbar">
-<<<<<<< HEAD
+      <div class="container navbar">
         <div class="left-nav">
           <div class="site-logo">
             <a href="/">
@@ -35,47 +29,75 @@
             </a>
           </div>
           <nav class="main-navigation">
-            <ul class="space-x-4">
-              <li><a href="#">Home</a></li>
+            <ul class="space-x">
+              <li><a href="/" class="active">Home</a></li>
               <li><a href="#">Projects</a></li>
               <li><a href="#">About</a></li>
               <li><a href="#">Blog</a></li>
               <li><a href="contact.html">Contact</a></li>
             </ul>
           </nav>
-=======
-        <nav class="main-navigation">
-          <ul class="space-x-4">
-            <li><a href="index.html" style="color: #e67e22;">Home</a></li>
-            <li><a href="About.html">About</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Writings</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
-        <div class="site-logo">
-          <a href="/">
-            <h2>Amelia</h2>
-          </a>
->>>>>>> e12d8d0029b1c564f0239f0fc29cca6cdb70088a
         </div>
 
-        <div class="social-icons">
-          <ul class="space-x-4">
+        <div class="right-nav">
+          <ul class="space-x">
             <li>
-              <a href="#">
+              <button>
                 <span
                   class="iconify"
-                  data-icon="clarity:moon-solid"
-                  data-width="21"
-                  data-height="21"
+                  data-icon="heroicons-outline:moon"
+                  data-width="24"
+                  data-height="24"
                 ></span>
-              </a>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="mobile-navbar">
+        <div class="list-wrapper">
+          <ul class="space-x">
+            <li>
+              <button id="menu">
+                <img id="menu-icon" src="img/icons/menu-icon.svg" alt="menu" />
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div class="site-logo">
+          <a href="/">
+            <img src="img/logo.svg" />
+          </a>
+        </div>
+        <div class="list-wrapper">
+          <ul class="space-x">
+            <li>
+              <button>
+                <span
+                  class="iconify"
+                  data-icon="heroicons-outline:moon"
+                  data-width="24"
+                  data-height="24"
+                ></span>
+              </button>
             </li>
           </ul>
         </div>
       </div>
     </header>
+
+    <section class="mobile-navbar-wrapper" id="mobile-navbar-wrapper">
+      <nav class="mobile-main-navigation">
+        <ul>
+          <li><a href="/" class="active">Home</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </section>
+
     <section class="hero container">
       <div>
         <img class="img" src="img/amelia.png" alt="Amelia Wattenberger" />
@@ -100,42 +122,5 @@
       </div>
       <div></div>
     </section>
-    <footer>
-      <div class="follow-bar">
-        <table id="hometable">
-          <tr>
-            <th class="head">Works</th>
-            <th class="head">Others</th>
-            <th class="head">Follow:</th>
-          </tr>
-          <tr>
-            <td>Option1</td>
-            <td>Option1</td>
-            <td><a href="#" class="fa fa-facebook"></a></td>
-          </tr>
-          <tr>
-            <td>Option2</td>
-            <td>Option2</td>
-            <td><a href="#" class="fa fa-twitter"></a></td>
-          </tr>
-          <tr>
-            <td>Option3</td>
-            <td>Option3</td>
-            <td><a href="#" class="fa fa-google"></a></td>
-          </tr>
-          <tr>
-            <td>Option4</td>
-            <td>Option4</td>
-            <td><a href="#" class="fa fa-linkedin"></a></td>
-          </tr>
-          <tr>
-            <td>Option5</td>
-            <td>Option5</td>
-            <td><a href="#" class="fa fa-instagram"></a></td>
-          </tr>
-        </table>
-      </div>
-      <div id="copyright">&copy; Forbidden . All rights reserved</div>
-    </footer>
   </body>
 </html>
