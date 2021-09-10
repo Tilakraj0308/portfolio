@@ -24,6 +24,9 @@ menu.addEventListener('click', function () {
 const prevBtn = document.getElementById('btn-previous');
 const nextBtn = document.getElementById('btn-next');
 const testimonialText = document.getElementById('testimonial-text');
+const username = document.getElementById('name');
+const designation = document.getElementById('designation');
+const avatar = document.getElementById('avatar');
 
 prevBtn.addEventListener('click', function () {
   changeSlide('PREV');
@@ -38,27 +41,31 @@ let current = 0;
 const testimonials = [
   {
     id: 1,
-    text: "We had an incredible experience working with Landify and were. Splitbee is a game changer. How did I not know about it earlier. It's actually the first web analytics that works the way I like.",
-    name: 'David Watson',
-    img: 'david.png',
-    designation: 'CEO',
-    color: '',
+    text: 'We had an incredible experience working with Saheb and were impressed he made such a big difference in only three weeks. Our team is so grateful for the wonderful improvements he made and his ability to get familiar with the product concept so quickly. It acted as a catalyst to take our design to the next level and get more eyes on our product.',
+    name: 'Prakriti Sen',
+    img: 'prakriti.jpg',
+    designation: 'Product Engineer',
   },
   {
     id: 2,
-    text: "Splitbee is a game changer. How did I not know about it earlier. It's actually the first web analytics that works the way I like.",
-    name: 'User 3',
-    img: 'david.png',
+    text: 'On a second troubleshooting task on an existing site (MERN stack) Saheb once again exceeded expectations, demonstrating high standards of integrity and professionalism. Communications were excellent and the work was done well, on time and with sincere attention to our needs and priorities. I have no hesitation recommending him highly.',
+    name: 'David Watson',
+    img: 'david.jpeg',
     designation: 'CTO',
-    color: '',
   },
   {
     id: 3,
-    text: "I really like Splitbee. UI is incredibly smooth, installation is easy... So far, the best analytics tool I've tried!    ",
-    name: 'User 4',
-    img: 'david.png',
-    designation: 'CFO',
-    color: '',
+    text: 'I had something complicated and lot of the folks denied or rejected to work with me for it being complicated. Saheb helped me fix it in just a couple of hours. Thanks for the help. would love to work with you again.',
+    name: 'Pratik Mishra',
+    img: 'pratik.jpg',
+    designation: 'Entrepreneur',
+  },
+  {
+    id: 4,
+    text: 'I would really like to thank Saheb on how competent and assertive he was with the job. First off, his communication was commendable then secondly his skills are top notch. Mind you, he delivered the project days before the delivery date and this is not just any mere project. I will highly recommend him over and over again.',
+    name: 'Rishabh Dubey',
+    img: 'rishabh.jpg',
+    designation: 'Client',
   },
 ];
 
@@ -76,6 +83,11 @@ function changeSlide(dir) {
     current = testimonials.length - 1;
   }
 
-  console.log(current);
-  testimonialText.innerText = testimonials[current].text
+  const { img, text, name, designation } = testimonials[current];
+
+  testimonialText.innerText = text;
+  username.innerText = name;
+  designation.innerText = designation;
+  avatar.src = `img/avatars/${img}`;
+  avatar.alt = name;
 }
