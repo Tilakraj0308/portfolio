@@ -48,7 +48,7 @@ Open with Live Server
 
 ## 🌱 Third Party Libraries
 
-- [JQuery](https://jquery.com/)
+- Iconify
 
 
 ## ❤️ Acknowledgements
