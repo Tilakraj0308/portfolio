@@ -25,7 +25,8 @@
 }
 
 .main-navigation ul li a,
-.mobile-main-navigation ul li a {
+.mobile-main-navigation ul li a,
+.list-wrapper ul li a {
   text-decoration: none;
   color: var(--gray-600, black);
   font-weight: 500;

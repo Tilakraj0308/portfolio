@@ -1,18 +1,22 @@
 footer {
-    background-color: var(--gray-800, black);
-    color: var(--gray-400, #fff);
-    padding: 2rem 1rem;
+  background-color: var(--gray-800, black);
+  color: var(--gray-400, #fff);
+  padding: 2rem 1rem;
+}
+
+.footer .right a {
+  text-decoration: none;
+  color: var(--gray-400, #fff);
 }
 
 .footer {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* SM */
 @media only screen and (min-width: 640px) {
-    footer {
-        padding: 2rem 0;
-    }
+  footer {
+    padding: 2rem 0;
   }
-  
+}
